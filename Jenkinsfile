@@ -9,7 +9,7 @@ pipeline{
         }
         stage('extrack data'){
             steps {
-                bat "C:\\Program Files\\Python313\\python.exe e.py"
+                bat "\"C:\\Program Files\\Python313\\python.exe\" e.py"
 
             }
         }
